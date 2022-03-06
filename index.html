@@ -8,40 +8,58 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet"/>
   </head>
 
   <body>
-    <nav>
+    <nav class = "navigation">
       <ul id="navBar">
-        <li><a href="#">Home</a></li>
+        <li id="anchor-home">Home</a></li>
         <li>
           Social Links
           <ul>
-            <li>LinkedIn</li>
-            <li>GitHub</li>
-            <li>Email</li>
+            <li><a href="https://www.linkedin.com/in/kellywalsh001/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/kemwalsh" target="_blank">GitHub</a></li>
           </ul>
         </li>
-        <li>Contact</li>
-        <li>
-          Have some fun
-          <ul>
-            <li>Go On</li>
-          </ul>
+        <li id="anchor-contact"><a href="mailto:kellywalsh827@gmail.com" target="_blank">Contact</a></li>
+        <li id="anchor-projects">Projects</li>
         </li>
       </ul>
     </nav>
-    <main>
-      <div class="home"><h1>Hi, I'm Kelly Walsh</h1></div>
+
+
+    <main class = "testemonial-grid">
+      <div class="home" id="anchor-home">
+        <div><h1>Hi, I'm Kelly Walsh</h1></div>
+        <div class="about"<h2>I am a University of Denver Coding Bootcamp student. I will graduate in August of 2022 with a database of knowledge, including, but not imited to: HTML, CSS, JavaScript, Node.Js, MySQL, Git, MongoDB, Heroku</h2>
+    </div>
+
+    <div>
       <img
         class="blob-img"
         src="./assets/images/kmw.png"
         alt="Kelly's Portrait"
       />
+    </div>
+
+      <div class="projects" id="anchor-projects">
+        <div><h2>Projects</h2></div>
+        <div class = "project1"><a href="https://github.com/micsdz/codey-buddy" target="_blank"><img alt="Qries" src="./assets/images/codeyBuddy.png"
+          width=150" height="70">
+          <br>
+          CodeyBuddy</a></div>
+          <div class = "project2"><a href="https://github.com/kemwalsh/kwPortfolio" target="_blank"><img alt="Qries" src="./assets/images/kmw.png"
+            width=150" height="70">
+            <br>
+            Portfolio</a></div>
+          <div class = "project2"><a href="https://github.com/kemwalsh/code-refactor" target="_blank"><img alt="Qries" src="./assets/images/codeRefactor.png"
+            width=150" height="70">
+            <br>
+            Code Refactor</a></div>
+        </div>
+
+      
     </main>
   </body>
 </html>

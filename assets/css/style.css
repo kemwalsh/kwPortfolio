@@ -1,14 +1,17 @@
 body {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
   font-family: 'Amatic SC';
   background-color: lightblue;
+  font-size: 24px;
 }
 
 #navBar {
-  text-align:left;
-  display:inline;
-  margin:0;
+  display:flex;
+  justify-content: flex-end;
+  margin: 10px;
   padding:15px;
-  list-style:none;
 }
 
 #navBar li{
@@ -18,12 +21,6 @@ body {
   padding: 15px 20px;
   color: rgb(37, 43, 39);
   background: transparent;
-  cursor: pointer;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
 }
 
 #navBar li:hover {
@@ -37,28 +34,15 @@ body {
   top: 48px;
   left: 0;
   width: 150px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
   display: none;
   opacity: 0;
   visibility: hidden;
-  -webkit-transiton: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s;
 }
 
 #navBar li ul li { 
   background: lightblue; 
   display: block; 
-  color: rgb(39, 43, 53);
-  text-shadow: 0 -1px 0 rgb(9, 19, 49);
-}
-
-#navBar li ul li:hover { 
-  background: rgb(76, 71, 116); 
+  color: rgb(53, 39, 50);
 }
 
 #navBar li:hover ul {
@@ -76,4 +60,10 @@ img {
   max-width: 300px;
     height: auto;
 }
+
+.testimonial-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
 
