@@ -8,6 +8,23 @@ body {
   background-size: cover;
 }
 
+.aboutMe {
+  margin-left: 900px;
+}
+/* body {
+  background: url(../images/kwbackground.jpeg);
+  background-position: center;
+  background-size: cover;
+} */
+
+/* html { 
+  background: url(../images/kwbackground.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
 .clientsParrlex {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -26,6 +43,11 @@ padding:10px;
 .title {
 font-family: 'Playfair Display SC', serif;
 font-weight: bold;
+}
+
+.kwImg {
+  width: 300px;
+  height: 500px;
 }
 
 .projectImg {
