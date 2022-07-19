@@ -3,14 +3,9 @@
 }
 
 body {
-  background-image: url('kwbackground.png');
+  background-image: url('../images/kwbackground.png');
   background-repeat: repeat;
   background-size: cover;
-}
-
-.navbar-nav {
-  display: flex;
-  
 }
 
 .clientsParrlex {
@@ -34,8 +29,8 @@ font-weight: bold;
 }
 
 .projectImg {
-  width: 30px;
-  height: 30px;
+  width: 250px;
+  height: 250px;
 }
 
 .icon {
