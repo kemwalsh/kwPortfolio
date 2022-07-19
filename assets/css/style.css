@@ -8,32 +8,9 @@ body {
   background-size: cover;
 }
 
-.header{
+.navbar-nav {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-}
-
-.header nav {
-  font-size: 20px;
-}
-
-.header nav ul li {
-  display: inline-block;
-  position:relative;
-  float: right;
-  margin-left: 50px;
-}
-
-a{
-    color:#232b35;
-}
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 10%;
+  
 }
 
 .clientsParrlex {
